@@ -30,14 +30,15 @@ ALLOWED_HOSTS = []
 
 # Application definition
 
+...
 INSTALLED_APPS = [
-    "django.contrib.admin",
-    "django.contrib.auth",
-    "django.contrib.contenttypes",
-    "django.contrib.sessions",
-    "django.contrib.messages",
-    "django.contrib.staticfiles",
+    # Мои приложения
+    'learning_logs',
+    # Приложения django по умолчанию.
+    'django.contrib.admin',
+    ... 
 ]
+...
 
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
